@@ -9,12 +9,11 @@ meta_description: lenage's site for Github based code
 	<p>I'm Yuan He, <a href="http://lenage.com/">一个linux爱好者</a> living in London, UK. This is a little site created using <a href="http://wiki.github.com/mojombo/jekyll">Jekyll</a> to hold my experiments and freely available software.</p>
 </div>
 
-{%for post in site.posts limit:10 %}
 <ul>
+{%for post in posts limit:10 %}
 	<li>
 	<a href="{{ post.url }}">{{ post.title }}</a> <span> {{ post.date |
 		date_to_long_string }}</span>
 	</li>
-</ul>
-
 {%endfor%}
+</ul>
