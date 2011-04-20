@@ -1,9 +1,20 @@
 ---
 layout: default
-title: Shape Shed Code
-meta_keywords: html, css, javascript, expressionengine, code, php, ruby, shell scripts
-meta_description: George Ornbo's site for Github based code
+title: 夜深的博客 
+meta_keywords: html, css, javascript, code, php, ruby, shell scripts , python,
+archlinux
+meta_description: lenage's site for Github based code
 ---
 <div id="intro">
 	<p>I'm Yuan He, <a href="http://lenage.com/">一个linux爱好者</a> living in London, UK. This is a little site created using <a href="http://wiki.github.com/mojombo/jekyll">Jekyll</a> to hold my experiments and freely available software.</p>
 </div>
+
+{%for post in site.posts limit:10 %}
+<ul>
+	<li>
+	<a href="{{ post.url }}">{{ post.title }}</a> <span> {{ post.date |
+		date_to_long_string }}</span>
+	</li>
+</ul>
+
+{%endfor%}
