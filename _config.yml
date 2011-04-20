@@ -1,0 +1,3 @@
+markdown:    maruku
+permalink:   /:categories/:title
+pygments: true
