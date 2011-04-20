@@ -28,7 +28,7 @@ If you use it commercially use a donation of $10 is suggested. You can send [don
 
 Friendly 404 is licensed under a [Open Source Initiative - BSD License][] license.
 
-## Installation
+## 安装 
 
 This file pi.friendly_404.php must be placed in the /system/plugins/ folder in your [ExpressionEngine][] installation.
 

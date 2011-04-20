@@ -309,7 +309,12 @@ ul.posts li:nth-child(2n+1)
 	{
 	background: rgba(0,0,0,0.6);
 }
-
+ul.posts li span {
+	font-size: 14px;
+	padding: 0 10px;
+	font-weight: 700;
+	color: #555;
+}
 /* Post page
 -----------------------------------------------------------------------------*/
 #tabs

@@ -1,3 +1,4 @@
 markdown:    maruku
 permalink:   /:categories/:title
 pygments: true
+server_port: 4004

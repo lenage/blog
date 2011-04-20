@@ -1,11 +1,13 @@
 ---
 layout: default
-title: lenage's blog 
-meta_keywords: html, css, javascript, code, php, ruby, shell scripts , python,
-archlinux
-meta_description: lenage's site for Github based code
+title: 夜深了 
 ---
 <div id="intro">
-	<p>I'm George Ornbo, <a href="http://shapeshed.com/">a web designer and developer</a> living in London, UK. This is a little site created using <a href="http://wiki.github.com/mojombo/jekyll">Jekyll</a> to hold my experiments and freely available software.</p>
+	<p>夜深(>_<)</p>
 </div>
+<ul class="posts">
+	{% for post in site.posts %}
+	<li><span>{{ post.date | date:"%Y-%m-%d" }} </span> <a href="{{ post.url }}"> {{ post.title }} </a></li>
+	{% endfor %}
+</ul>
 
