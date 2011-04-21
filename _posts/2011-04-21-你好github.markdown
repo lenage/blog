@@ -2,7 +2,7 @@
 layout: post
 meta_keywords: expressionengine, plugin, file, weight, converter
 meta_description: Converts a number from one weight to another
-title: 我可以点一个永和豆浆么？
+title: 你好GITHUB 
 summary: Converts a number from one weight to another
 categories: expressionengine plugins
 lighthouse: 41322-weight_converter
@@ -21,7 +21,7 @@ pledgie: 6994
 
 ## License
 
-永和豆浆是楼下的一家外卖，酱紫
+Weight Converter is free for personal and commercial use. 
 
 If you use it commercially a donation of $10 is suggested. You can send [donations here](http://pledgie.com/campaigns/6994). 
 

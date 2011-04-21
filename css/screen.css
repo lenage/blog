@@ -43,7 +43,7 @@ hgroup, menu, nav, section {
 body
   {
   font: 81.25%/1.5 Helvetica, Arial, "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;
-  background: #999999 url(/images/backgrounds/background.jpg) repeat-x;
+  background: #999999 url(/images/backgrounds/background.png) repeat;
   color: #000;  
   text-align:center;
 }

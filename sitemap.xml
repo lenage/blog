@@ -8,55 +8,55 @@ layout: nil
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://shapeshed.github.com/</loc>
+    <loc>http://lenage.github.com/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/expressionengine/modules/</loc>
+    <loc>http://lenage.github.com/expressionengine/modules/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/expressionengine/extensions/</loc>
+    <loc>http://lenage.github.com/expressionengine/extensions/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/expressionengine/plugins/</loc>
+    <loc>http://lenage.github.com/expressionengine/plugins/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/expressionengine/</loc>
+    <loc>http://lenage.github.com/expressionengine/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/html-css/</loc>
+    <loc>http://lenage.github.com/html-css/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/javascript/</loc>
+    <loc>http://lenage.github.com/javascript/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://shapeshed.github.com/about/</loc>
+    <loc>http://lenage.github.com/about/</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   {% for post in site.posts %}<url>
-    <loc>http://shapeshed.github.com{{ post.url }}</loc>
+    <loc>http://lenage.github.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
