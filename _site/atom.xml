@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Tate Johnson</title>
- <link href="http://tatey.com/atom.xml" rel="self"/>
- <link href="http://tatey.com/"/>
- <updated>2011-05-12T12:27:39+08:00</updated>
- <id>http://tatey.com/</id>
+ <title>lenage博客</title>
+ <link href="http://lenage.github.com/atom.xml" rel="self"/>
+ <link href="http://lenage.github.com/"/>
+ <updated>2011-05-12T14:07:35+08:00</updated>
+ <id>http://lenage.github.com/</id>
  <author>
-   <name>Tate Johnson</name>
-   <email>tate@tatey.com</email>
+   <name>lenage</name>
+   <email>lendage@gmail.com</email>
  </author>
  
    <entry>
      <title>github上的第一篇博客</title>
-     <link href="http://tatey.com/2011/05/12/test/"/>
+     <link href="http://lenage.github.com/2011/05/12/test/"/>
      <updated>2011-05-12T00:00:00+08:00</updated>
-     <id>http://tatey.com/2011/05/12/test</id>
+     <id>http://lenage.github.com/2011/05/12/test</id>
      <content type="html">&lt;p&gt;每次要到写博客的时候，突然发现一点都写不出来，生活中也没有什么好写的，当然这一篇完全是为了测试而写的。&lt;/p&gt;
 
 &lt;p&gt;test&lt;/p&gt;</content>
@@ -22,9 +22,9 @@
  
    <entry>
      <title>Planning the Future of Antenna Mate</title>
-     <link href="http://tatey.com/2011/05/11/planning-the-future-of-anrenna-nare/"/>
+     <link href="http://lenage.github.com/2011/05/11/planning-the-future-of-anrenna-nare/"/>
      <updated>2011-05-11T00:00:00+08:00</updated>
-     <id>http://tatey.com/2011/05/11/planning-the-future-of-anrenna-nare</id>
+     <id>http://lenage.github.com/2011/05/11/planning-the-future-of-anrenna-nare</id>
      <content type="html">&lt;p&gt;&lt;a href='http://antennamate.com'&gt;Antenna Mate&amp;#8217;s&lt;/a&gt; future is increased flexibility, more relevant data and availability in foreign markets. The app was originally conceptualised by &lt;a href='http://twitter.com/adrianfrost'&gt;Adrian Frost&lt;/a&gt; out of the frustration of aligning TV antennas and allocating channels in commercial MATV installations. Antenna Mate was designed around use cases that supported the nature of Adrian&amp;#8217;s work without considering user cases for other demographics.&lt;/p&gt;
 
 &lt;p&gt;After the beta it became apparent that caraveners and motorhome owners were equally as interested in Antenna Mate as professional installers. Both demographics share use cases. Where they diverge on is the emphasis to plan ahead versus more relevant data for making informed decisions. The difficulty in planning the future of Antenna Mate is continuing to satisfy both demographics without compromising the simplicity of the app. My default stance is to satisfy the majority with good defaults and minimise the amount of options. Options increase complexity and smell of a poorly thought out design. Balancing feature requests with code maintenance and a good user experience feels completely polarised.&lt;/p&gt;
@@ -48,9 +48,9 @@
  
    <entry>
      <title>The Setup</title>
-     <link href="http://tatey.com/2011/04/16/the-setup/"/>
+     <link href="http://lenage.github.com/2011/04/16/the-setup/"/>
      <updated>2011-04-16T00:00:00+08:00</updated>
-     <id>http://tatey.com/2011/04/16/the-setup</id>
+     <id>http://lenage.github.com/2011/04/16/the-setup</id>
      <content type="html">&lt;p&gt;Inspired by &lt;a href='http://usesthis.com/'&gt;The Setup&lt;/a&gt;, I thought I&amp;#8217;d share mine.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href='http://www.flickr.com/photos/tatejohnson/5604528053/in/set-72157623446355659/lightbox/'&gt;&lt;img alt='Workstation and desk' src='http://farm6.static.flickr.com/5308/5604528053_b4350764af_d.jpg' /&gt;&lt;/a&gt;&lt;/p&gt;
