@@ -2,30 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tatey.com/2011/05/12/test/</loc>
+    <loc>http://lenage.github.com/2011/05/12/test/</loc>
     <lastmod>2011-05-12</lastmod>
   </url>
   
   <url>
-    <loc>http://tatey.com/2011/05/11/planning-the-future-of-anrenna-nare/</loc>
+    <loc>http://lenage.github.com/2011/05/12/first-blog/</loc>
+    <lastmod>2011-05-12</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://lenage.github.com/2011/05/11/planning-the-future-of-anrenna-nare/</loc>
     <lastmod>2011-05-11</lastmod>
   </url>
   
   <url>
-    <loc>http://tatey.com/2011/04/16/the-setup/</loc>
+    <loc>http://lenage.github.com/2011/04/16/the-setup/</loc>
     <lastmod>2011-04-16</lastmod>
   </url>
   
   <url>
-    <loc>http://tatey.com/</loc>
+    <loc>http://lenage.github.com/</loc>
     <lastmod>2011-05-12</lastmod>
   </url>
   <url>
-    <loc>http://tatey.com/about/</loc>
-    <lastmod>2010-09-19</lastmod>
+    <loc>http://lenage.github.com/about/</loc>
+    <lastmod>2011-05-12</lastmod>
   </url>
   <url>
-    <loc>http://tatey.com/archive/</loc>
+    <loc>http://lenage.github.com/archive/</loc>
     <lastmod>2011-05-12</lastmod>
   </url>
 </urlset> 

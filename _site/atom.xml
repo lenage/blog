@@ -3,7 +3,7 @@
  <title>lenage博客</title>
  <link href="http://lenage.github.com/atom.xml" rel="self"/>
  <link href="http://lenage.github.com/"/>
- <updated>2011-05-12T14:07:35+08:00</updated>
+ <updated>2011-05-12T15:04:16+08:00</updated>
  <id>http://lenage.github.com/</id>
  <author>
    <name>lenage</name>
@@ -18,6 +18,26 @@
      <content type="html">&lt;p&gt;每次要到写博客的时候，突然发现一点都写不出来，生活中也没有什么好写的，当然这一篇完全是为了测试而写的。&lt;/p&gt;
 
 &lt;p&gt;test&lt;/p&gt;</content>
+   </entry>
+ 
+   <entry>
+     <title>开篇志</title>
+     <link href="http://lenage.github.com/2011/05/12/first-blog/"/>
+     <updated>2011-05-12T00:00:00+08:00</updated>
+     <id>http://lenage.github.com/2011/05/12/first-blog</id>
+     <content type="html">&lt;p&gt;灵感这东西不记录就没有了；生活也是，需要认真的记录。&lt;/p&gt;
+
+&lt;p&gt;最近几天：&lt;/p&gt;
+
+&lt;h1 id='archlinux'&gt;上次archlinux升级中因没插电源中断之后重新安装，比以前好用多了；&lt;/h1&gt;
+
+&lt;h1 id='id1'&gt;经过重装后比上次好用多了；&lt;/h1&gt;
+
+&lt;h1 id='gnome3'&gt;昨天安装了gnome3，但是今天凌晨又卸载了，还是不喜欢厚重的感觉；&lt;/h1&gt;
+
+&lt;h1 id='openboxxcompmgr'&gt;现在使用openbox，动画效果用xcompmgr，阴影和淡入淡出效果还能接受；&lt;/h1&gt;
+
+&lt;h1 id='linux_flam3'&gt;分形图真的很美，在linux可以使用 flam3绘制；&lt;/h1&gt;</content>
    </entry>
  
    <entry>
