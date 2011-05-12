@@ -5,20 +5,20 @@ layout: nil
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in site.posts %}
   <url>
-    <loc>http://tatey.com{{ post.url }}</loc>
+    <loc>http://lenage.github.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
   </url>
   {% endfor %}
   <url>
-    <loc>http://tatey.com/</loc>
+    <loc>http://lenage.github.com/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </url>
   <url>
-    <loc>http://tatey.com/about/</loc>
-    <lastmod>2010-09-19</lastmod>
+    <loc>http://lenage.github.com/about/</loc>
+    <lastmod>2011-05-12</lastmod>
   </url>
   <url>
-    <loc>http://tatey.com/archive/</loc>
+    <loc>http://lenage.github.com/archive/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </url>
 </urlset> 
