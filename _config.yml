@@ -1,4 +1,6 @@
-markdown:    maruku
-permalink:   /:categories/:title
+---
+exclude: ['Rakefile', 'README.markdown', '_design']
+markdown: maruku
+permalink: pretty
 pygments: true
-server_port: 4004
+safe: false

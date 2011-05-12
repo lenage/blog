@@ -1,64 +1,24 @@
 ---
-layout: nil 
+layout: nil
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
   <url>
-    <loc>http://lenage.github.com/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <loc>http://tatey.com{{ post.url }}</loc>
+    <lastmod>{{ post.date | date: "%Y-%m-%d" }}</lastmod>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>http://tatey.com/</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </url>
   <url>
-    <loc>http://lenage.github.com/expressionengine/modules/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <loc>http://tatey.com/about/</loc>
+    <lastmod>2010-09-19</lastmod>
   </url>
   <url>
-    <loc>http://lenage.github.com/expressionengine/extensions/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <loc>http://tatey.com/archive/</loc>
+    <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
   </url>
-  <url>
-    <loc>http://lenage.github.com/expressionengine/plugins/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://lenage.github.com/expressionengine/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://lenage.github.com/html-css/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://lenage.github.com/javascript/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://lenage.github.com/about/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  {% for post in site.posts %}<url>
-    <loc>http://lenage.github.com{{ post.url }}</loc>
-    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>{% endfor %}
-</urlset>
+</urlset> 

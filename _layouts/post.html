@@ -1,10 +1,28 @@
 ---
 layout: default
 ---
-<article>
-    <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b"}}</time>
-    <h2>{{ page.title }}</h2>
-        {{ content }}
-</article>
-<p>I'm on Web: <a href="http://www.douban.com/people/lendage">豆瓣</a>&nbsp;&nbsp;<a href="http://twitter.com/#!/heyuan">twitter</a></p>
 
+<article>
+  <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b" }}</time>
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+</article>
+<p>我的<a href="http://douban.com/people/lendage">豆瓣</a></p>
+<hr>
+<div id="paginator">
+  {% if page.previous %}
+    <a id="left" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Older</a>
+  {% endif %}
+  <form action="http://www.google.com/cse" method="get">
+    <fieldset>
+      <input type="hidden" name="cx" value="011449214013281158279:ie-gceh3d90" />
+      <input type="hidden" name="ie" value="UTF-8" />
+      <input type="search" name="q" size="31" />
+      <input type="submit" name="sa" value="Search" />
+    </fieldset>
+  </form>
+  {% if page.next %}
+    <a id="right" href="{{ page.next.url }}" title="{{ page.next.title }}">Newer &rarr;</a>
+  {% endif %}
+</div>
+{% include footer.html %}
