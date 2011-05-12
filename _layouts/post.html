@@ -1,77 +1,10 @@
 ---
 layout: default
 ---
-	<article>
-		<h1 class="article">{{ page.title }}</h1>
-		<nav>
-			<ul id="tabs">
-				<li><a href="#documentation" id="documentation-tab">Documentation</a></li>
-				{% if page.lighthouse %}<li><a href="#tickets" id="tickets-tab">Tickets</a></li>{% endif %}	
-				<li><a href="#comments" id="comments-tab">Comments</a></li>
-				{% if page.pledgie %}<li><a href="#donations" id="donations-tab">Donations</a></li>{% endif %}
-			</ul>
-		</nav>
-		<section id="documentation">
-			{% if page.github_gist %}
-			<aside>
-				<h4>Downloads</h4>
-				<p><a href="{{ page.github_gist }}download">Download the latest version</a></p>
-			</aside>			
-			{% endif %}							
-			{% if page.github_tags %}
-			<aside>
-				<h4>Downloads</h4>
-				<p><a href="http://github.com/shapeshed/{{ page.github }}/zipball/{{ page.github_tags.first }}">Download the latest version ({{ page.github_tags.first }})</a></p>
-				<p id="older"><a href="#" id="older-versions">Older versions</a></p>
-				<ul>
-			{% for tag in page.github_tags %}
-			{% if tag != page.github_tags.first %}<li><a href="http://github.com/shapeshed/{{ page.github }}/zipball/{{ tag }}">{{ tag }}</a></li>
-			{% endif %}	
-			{% endfor %}
-				</ul>
-			</aside>
-			{% endif %}			
-		{{ content }}
-		</section>
-		<section id="tickets">
-			<p>You can open a ticket <a href="http://shapeshed.lighthouseapp.com/projects/{{ page.lighthouse }}/tickets/new">over at Lighthouse</a>. As this is free software the response time can vary.<p>
-			<table id="lighthouse" class="{{ page.lighthouse }}">
-				<tr>
-					<th>#</th>
-					<th>Ticket</th>
-					<th>Milestone</th>
-					<th>Created at</th>
-					<th>Updated at</th>
-					<th>Status</th>
-				</tr>
-			</table>
-		</section>
-		<section id="comments">
-			<h3>Comments</h3>
-			<div id="disqus_thread"></div>
-			<script type="text/javascript">
-				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO
-				   YOUR WEBPAGE * * */
-			var disqus_shortname = 'example'; // required: replace example with your forum shortname
+<article>
+    <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b"}}</time>
+    <h2>{{ page.title }}</h2>
+        {{ content }}
+</article>
+<p>I'm on Web: <a href="http://www.douban.com/people/lendage">豆瓣</a>&nbsp;&nbsp;<a href="http://twitter.com/#!/heyuan">twitter</a></p>
 
-			// The following are highly recommended additional parameters. Remove the slashes in front to use.
-			// var disqus_identifier = 'unique_dynamic_id_1234';
-			// var disqus_url = 'http://example.com/permalink-to-page.html';
-
-			/* * * DON'T EDIT BELOW THIS LINE * * */
-			(function() {
-			 var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js'; 
-			 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-		</section>
-		{% if page.pledgie %}		
-		<section id="donations">
-			<h3>Donations</h3>
-			<p>Most of my software is free but I still need to eat and keep the wife happy.</p>
-			<p>If you use any software commercially please consider giving a donation.</p>
-			<p><a href="http://pledgie.com/campaigns/{{ page.pledgie }}">Make a donation via PayPal</a></p>
-			</form>
-		</section>
-		{% endif %}	
-	</article>
