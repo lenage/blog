@@ -1,6 +1,7 @@
 ---
 layout: post
 title: archlinux+openbox使用笔记本的多媒体键 
+category: tech
 ---
 需要说明的是：这里指的多媒体键是指，笔记本上除Fn+\*之外的独立按键，一般用来静音，加大减小音量，打开DVD光驱等。
 
