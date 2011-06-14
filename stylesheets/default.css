@@ -2,3 +2,6 @@ html{margin:0;padding:0;border:none;background:#222;color:#fff;font-family:"Micr
 #dsq-pagination {
     display: none;
 }
+.blog div {display: none;}
+.blog_hover{position:relative}
+.blog_hover div {position: absolute;}
