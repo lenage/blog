@@ -1,0 +1,42 @@
+---
+layout: post
+title: Programming Ruby notes0000
+category: tech 
+---
+1. Symbols are simple constant names that you don't have to predeclare and 
+  that are guaranteed to be unique.
+2. Symbols are so frequently used as hash key that Ruby 1.9 introduces
+  a new syntax you can use name: value pairs to create a hash if the 
+  key are symbols:
+
+       inst_section = {
+         cello: 'sting',
+         clarinet: 'woodwind',
+         drum:     'Programming'
+       }
+       puts "An oboe is a #{inst_section[:cello]}"
+    
+   *produces:*
+
+       An oboe is a sting
+3. Command-line Arguments: 
+    
+    when you run a ruby program from the command line, you can pass in 
+    arguments.These are accessible in two different ways.
+     
+    First.the array ARGV contains each if the arguments passed to the running
+    program.Create a file called cmd\_line.rb that contains the following:
+
+          puts "You gave #{ARGV.size} arguments"
+          p ARGV
+    when we run it with arguments,we can see that they get passed in:
+
+          $ ruby cmd_line.rb ant bee cat dog
+    *produces*
+
+          You gave 4 arguments
+          ["ant","bee","cat","dog"]
+    Often,the agruments to a program are the names of files that you want
+    to process.In this case, you can use a second technique: the variable 
+    ARGF is a special kind of I/O object that acts like all the contents
+    of all the files whose names are passed on the Command line.
