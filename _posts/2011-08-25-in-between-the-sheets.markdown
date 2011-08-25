@@ -26,7 +26,7 @@ category: life
 
 [链接](http://book.douban.com/subject/5043526/)
 
-PS:在豆瓣直接搜是搜不到这本书的,至于你有没有搜到,反正我是没搜到,后来还是通过输入ISBN码找到的,阿北,你是要闹
-那样啊?
+> PS:在豆瓣直接搜是搜不到这本书的,至于你有没有搜到,反正我是没搜到,后来还是通过输入ISBN码找到的,阿北,你是要闹
+> 那样啊?
 
-Last modify: Thu Aug 25 22:13:47 CST 2011
+> Last modify: Thu Aug 25 22:13:47 CST 2011

@@ -142,7 +142,9 @@ img {
   border: 1px solid #f4f2f0;
   max-width: 520px;
   box-shadow: 1px 1px 2px #dadada;
-  -webkit-box-shadow: 1px 1px 2px #dadada; }
+  -webkit-box-shadow: 1px 1px 2px #dadada;
+  float: left;
+  margin: 10px; }
 
 .post a {
   color: #999999;
