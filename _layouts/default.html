@@ -9,14 +9,21 @@
     <link href='/images/favicon.ico' rel='shortcut icon' type='image/ico'>
   </head>
   <body>
-      <h1><a href="{{ base.url }}/">lenage<span>.</span>blog</a></h1>
-    <nav>
-      <ul>
-        <li><a href="{{ base.url }}/">Blog</a></li>
-        <li><a href="{{ base.url }}/config">Config</a></li>
-        <li><a href="{{ base.url }}/about/">About</a></li>
-      </ul>
-    </nav>
+    <div id="wrap">
+      <div class="gowl"></div>
+      <div id="header">
+        <div class="top"></div>
+        <div class="content">
+        <h1><a href="{{ base.url }}/">lenage<span>.</span>blog</a></h1>
+        <ul id="nav">
+          <li><a href="{{ base.url }}/">Blog</a></li>
+          <li><a href="{{ base.url }}/config">Config</a></li>
+          <li><a href="{{ base.url }}/about/">About</a></li>
+        </ul>
+      </div>
+      <div class="bottom"></div>
+      </div>
     {{ content }}
+    </div>
   </body>
 </html>

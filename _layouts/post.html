@@ -2,12 +2,13 @@
 layout: default
 ---
 
-<article>
+<div class="post">
+  <div class="top">
   <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d %b" }}</time>
   <h2>{{ page.title }}</h2>
+  </div>
+  <div class="content">
   {{ content }}
-</article>
-<hr>
 <div id="paginator">
   {% if page.previous %}
     <a id="left" href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Older</a>
@@ -42,4 +43,7 @@ var disqus_shortname = 'benage'; // required: replace example with your forum sh
  })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+  <div class="bottom"></div>
+</div>
 {% include footer.html %}
