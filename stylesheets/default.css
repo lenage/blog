@@ -206,6 +206,8 @@ img {
     padding: 20px; }
     .post .content pre code {
       border: none; }
+  .post .content li pre {
+    margin-left: -80px; }
   .post .content code {
     background: #222222;
     color: white;
