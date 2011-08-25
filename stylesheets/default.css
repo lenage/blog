@@ -9,6 +9,8 @@ html {
   background-repeat: repeat;
   color: #111111;
   font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  html fieldset, html img {
+    border: none; }
 
 ::selection {
   background: #476871;
@@ -19,6 +21,8 @@ body {
   margin: 0;
   padding: 0;
   border: none; }
+  body fieldset, body img {
+    border: none; }
 
 #wrap {
   width: 619px;
@@ -103,6 +107,8 @@ h1 {
   border: none;
   list-style-type: none;
   padding: 0 160px; }
+  #nav fieldset, #nav img {
+    border: none; }
   #nav:after {
     content: ".";
     display: block;
