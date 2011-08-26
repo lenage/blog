@@ -268,7 +268,9 @@ img {
 
 #github {
   display: block;
-  background: none; }
+  background: none;
+  width: 100px;
+  height: 100px; }
   #github img {
     background: none;
     border: none;
