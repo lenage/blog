@@ -1,1 +1,2 @@
-rack-jekyll
+source :rubygems
+gem "rack-jekyll"
