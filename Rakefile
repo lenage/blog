@@ -13,10 +13,10 @@ task :server do
   jekyll '--server --auto'
 end
 
-desc 'Build and deploy'
-task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ tatey@tatey.com:~/var/www/tatey.com/'
-end
+#desc 'Build and deploy'
+#task :deploy => :build do
+  #sh 'rsync -rtzh --progress --delete _site/ tatey@tatey.com:~/var/www/tatey.com/'
+#end
 
 def jekyll(opts = '')
   sh 'rm -rf _site'
