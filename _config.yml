@@ -1,5 +1,5 @@
 ---
-exclude: ['Rakefile', 'README.markdown', '_design']
+exclude: ['Rakefile']
 markdown: maruku
 permalink: pretty
 pygments: true
