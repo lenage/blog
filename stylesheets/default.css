@@ -288,7 +288,7 @@ img {
     -o-transition: -o-transform 1s ease-in;
     transition: transform 1s ease-in; }
     #github img:hover {
-      -webkit-transform: rotate(85deg);
+      -webkit-transform: rotate(75deg);
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
       transform: rotate(90deg); }
