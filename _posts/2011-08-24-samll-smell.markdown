@@ -9,5 +9,3 @@ category: life
 
 附上乌镇妹子做船头照片一张:
 ![妹妹坐船头哥哥岸上走](https://lh6.googleusercontent.com/-YQr7UTdnRmo/Tk8EJkyIORI/AAAAAAAAA6I/D1shy_LFE5I/s720/C360_2011-08-20%2B08-49-54.jpg)
-
-last modify: Thu Aug 25 13:51:27 2011

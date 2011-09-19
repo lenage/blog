@@ -19,7 +19,9 @@ title:  夜深
   <div class="content">
     {{ post.content }}
   </div>
-  <div class="bottom"></div>
+  <div class="bottom">
+    <span>{{post.date | date: "%c"}}</span>
+  </div>
 </div>
 {% endfor %}
 <!--<h2>Archive</h2>-->

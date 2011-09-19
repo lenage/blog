@@ -190,6 +190,14 @@ img {
   background-image: url("/images/post-bottom-bg.png");
   background-repeat: no-repeat;
   background-posotion: 0 0; }
+.post .bottom span{
+  margin-left: 40px;
+  color: #ececec;
+  text-shadow: 1px 1px 1px #FFF;
+  -moz-text-shadow: 1px 1px 1px #FFF;
+  -webkit-text-shadow: 1px 1px 1px #FFF;
+  -o-text-shadow: 1px 1px 1px #FFF;
+}
 .post .content {
   line-height: 2;
   font-size: 14px;
