@@ -235,6 +235,9 @@ img {
 .projects h3 span{font-weight: normal; font-size: 80%;}
 .projects p {margin-bottom: 2.5em}
 
+.archive p {display: inline; border-bottom: 1px dashed #ccc}
+.archive ol {list-style-type: lower-greek;}
+
 #footer .content {
   padding: 20px 40px 20px; }
   #footer .content:after {
