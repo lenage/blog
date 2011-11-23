@@ -4,11 +4,18 @@
     <a id ="qrcode" href="http://lenage.com"><img id="left" src="{{ base.url }}/images/qrcode.png" alt="lenage" /></a>
     <p id="web_links">
       Linux用户，使用archlinux+openbox并乐在其中,现在正在努力的学习ruby<a href="http://www.douban.com/photos/album/46596354/">截图</a>.
-      <a href="http://twitter.com/heyuan/">Twitter</a>, 
+      <a href="http://twitter.com/heyuan/">Twitter</a>,
       <a href="http://douban.com/people/lendage">豆瓣</a>
-      <a href="http://last.fm/user/lendage/">Last.fm</a>,<a href="http://github.com/lenage">GitHub</a>&nbsp;
-      订阅<a href="http://feeds2.feedburner.com/lenage">Atom feed</a>.<br /><span id="copyright"> © 2011 lenage. All Rights Reserved.</span>
+      <a href="http://last.fm/user/lendage/">Last.fm</a>,
+      <a href="http://github.com/lenage">GitHub</a>&nbsp; 订阅
+      <a href="http://feeds2.feedburner.com/lenage">Atom feed</a>.
+      <br />
+      <span id="copyright"> © {{ site.posts.first.date | date: "%Y"}} lenage. All Rights Reserved.</span>
     </p>
   </div>
   <div class="bottom"></div>
+  <!-- start Mixpanel -->
+  <script type="text/javascript">var mpq=[];mpq.push(["init","1e8711cdb344603d7e4a32e4a344660f"]);(function(){var b,a,e,d,c;b=document.createElement("script");b.type="text/javascript";b.async=true;b.src=(document.location.protocol==="https:"?"https:":"http:")+"//api.mixpanel.com/site_media/js/api/mixpanel.js";a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(b,a);e=function(f){return function(){mpq.push([f].concat(Array.prototype.slice.call(arguments,0)))}};d=["init","track","track_links","track_forms","register","register_once","identify","name_tag","set_config"];for(c=0;c<d.length;c++){mpq[d[c]]=e(d[c])}})();
+  </script>
+  <!-- end Mixpanel -->
 </div>

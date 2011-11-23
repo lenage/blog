@@ -104,11 +104,11 @@ h1 {
         color: #162e41; }
 
 #nav {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   border: none;
   list-style-type: none;
-  padding: 0 160px; }
+  padding-left: 120px;}
   #nav fieldset, #nav img {
     border: none; }
   #nav:after {
@@ -229,6 +229,14 @@ img {
     padding: 3px;
     border: 1px solid #111111;
     border-radius: 5px; }
+
+.projects h3 a{color:#000}
+.projects h3 {border-bottom: 1px solid #ccc}
+.projects h3 span{font-weight: normal; font-size: 80%;}
+.projects p {margin-bottom: 2.5em}
+
+.archive p {display: inline; border-bottom: 1px dashed #ccc}
+.archive ol {list-style-type: lower-greek;}
 
 #footer .content {
   padding: 20px 40px 20px; }
