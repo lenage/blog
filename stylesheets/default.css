@@ -23,6 +23,7 @@ body {
   border: none;
   overflow-y: scroll;
   overflow-x: hidden; }
+  -webkit-font-smoothing: antialiased;
   body fieldset, body img {
     border: none; }
 
