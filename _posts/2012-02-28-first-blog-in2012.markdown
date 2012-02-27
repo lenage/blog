@@ -1,0 +1,18 @@
+---
+layout: post
+title: 终端下获得图片大小
+category: tech
+---
+以前在mac下想知道图片的大小一般是:
+
+    1. cd 到图片目录或者open /dirname/images
+    2. 然后选中通过command+i,看大小信息
+
+但是这样太不awesome了,离开终端就不爽,于是用`file` 命令吧
+
+    [man file](http://man.he.net/?topic=file&section=all)
+    file amb_quote_bg.png
+    amb_quote_bg.png: PNG image data, 286 x 173, 8-bit/color RGBA, non-interlaced
+
+Awesome!
+--EOF--
