@@ -35,3 +35,4 @@ category: tech
         Generating messages/en.m
         Generating tests/main.hs
 
+Sun Apr  8 21:19:04 2012

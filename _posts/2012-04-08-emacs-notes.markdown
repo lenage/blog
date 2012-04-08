@@ -4,7 +4,7 @@ title: emcas notes
 category: tech
 ---
 
-* remove trailing whitespace
+* Remove trailing whitespace
 
     1. Enter PictureMide - `M-x picture-mode`
     2. Exit picture mode - `C-c C-c`
