@@ -13,3 +13,5 @@ category: tech
     ~ ➤ tail -f /Users/lenage/.rvm/log/ruby-1.9.3-p125/docs.log
       Generating RI format into /Users/lenage/.rvm/rubies/ruby-1.9.3-p125/share/ri/1.9.1/site...
       Generating Darkfish format into /Users/lenage/.rvm/docs/ruby-1.9.3-p125/rdoc..
+
+`cp --parents -r `find ./ -iname "*original.jpg"` /chroot/home/ftpdevdesigner/product_images/new/`
