@@ -15,17 +15,17 @@ category: tech
 
 2. 使用， 在`.emacs` 添加
 
-    (require 'auto-complete)
-    (require 'auto-complete-config)
-    (ac-config-default)
+       (require 'auto-complete)
+       (require 'auto-complete-config)
+       (ac-config-default)
 
     就能出现如下图的效果![效果图不是我的截图](http://cx4a.org/software/auto-complete/ac.png)
 
 3. 然后想关掉popup的话 `(setq ac-auto-show-menu nil)`, 想在popup(严格的说是menu)上面使用
    `C-n, C-p`来选词的话, auto-complete的完整配置[在这里](https://github.com/lenage/emacs-config/blob/master/lenage/auto-complete.el)
 
-    (define-key ac-completing-map (kbd "C-n") 'ac-next)
-    (define-key ac-completing-map (kbd "C-p") 'ac-previous)
+       (define-key ac-completing-map (kbd "C-n") 'ac-next)
+       (define-key ac-completing-map (kbd "C-p") 'ac-previous)
 
 
 
