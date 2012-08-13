@@ -71,13 +71,14 @@ category: tech
     就能出现如下图的效果![效果图不是我的截图](http://cx4a.org/software/auto-complete/ac.png)
 
 3. 然后想关掉popup的话 `(setq ac-auto-show-menu nil)`, 想在popup(严格的说是menu)上面使用
-   `C-n, C-p`来选词的话:
+   `C-n, C-p`来选词的话, auto-complete的完整配置[在这里](https://github.com/lenage/emacs-config/blob/master/lenage/auto-complete.el)
 
     (define-key ac-completing-map (kbd "C-n") 'ac-next)
     (define-key ac-completing-map (kbd "C-p") 'ac-previous)
 
-  我的完整配置的[话](https://github.com/lenage/emacs-config/blob/master/lenage/auto-complete.el)
+
 
 4. 要clone的话，`git clone https://github.com/lenage/emacs-config.git ~/.emacs.d`
 
--EOF-  Mon Aug 13 22:40:53 2012
+----
+Mon Aug 13 22:49:49 2012
