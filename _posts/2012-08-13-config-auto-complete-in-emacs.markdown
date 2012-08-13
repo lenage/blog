@@ -15,9 +15,9 @@ category: tech
 
 2. 使用， 在`.emacs` 添加
 
-       (require 'auto-complete)
-       (require 'auto-complete-config)
-       (ac-config-default)
+    (require 'auto-complete)
+    (require 'auto-complete-config)
+    (ac-config-default)
 
     就能出现如下图的效果![效果图不是我的截图](http://cx4a.org/software/auto-complete/ac.png)
 
@@ -33,5 +33,6 @@ category: tech
 
 ----
 Update1: 在这里贴大段的代码还是很丑的，改用github文件连接
+Update2: 更加详细的文档 http://cx4a.org/software/auto-complete/manual.html
 
 Mon Aug 13 22:49:49 2012
