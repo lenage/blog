@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 企业家书单
+title: 书单
 category: startup
 ---
 来自qoura的这个[问题](http://www.quora.com/Startups/What-are-some-must-read-books-written-by-successful-entrepreneurs),
