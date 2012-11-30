@@ -209,20 +209,21 @@ img {
   background-repeat: repeat-y;
   background-position: 0 0;
   border-raidus: 5px; }
-  .post .content pre {
+  pre {
     background: #222222;
     color: white;
     text-shadow: none;
     width: 579px;
+    overflow-x: auto;
     border-radius: 5px;
     margin-left: -40px;
     padding: 20px; }
-    .post .content pre code {
+    pre code {
       border: none; }
-  .post .content li pre {
+  li pre {
     margin-left: -80px; }
-  .post .content p code,
-  .post .content li code{
+  p code,
+  li code{
     background: #eee;
     color: #000;
     text-shadow: none;
