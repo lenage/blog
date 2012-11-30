@@ -15,3 +15,5 @@ category: tech
 (package-initialize)
 ;;{% endhighlight %}
 {% endhighlight %}
+
+另外如果在本地测试的话需要安装Pygments: `sudo pip install Pygments`
