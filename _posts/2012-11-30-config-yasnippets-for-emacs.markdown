@@ -7,7 +7,7 @@ category: tech
 
 1. 添加package源，将如下代码加到`.emacs` 或者 `.emacs.d/init.el`
 
-``` elisp
+{% highlight elisp linenos%}
 ;; set packages
 (require 'package)
 (setq package-archives
@@ -16,7 +16,8 @@ category: tech
         ("marmalade"   . "http://marmalade-repo.org/packages/")
         ("melpa"       . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
-```
+{% endhighlight %}
+
 
 2. `M-x eval-buffer`
 3. `M-x package-list-packages` 按照你的网速快慢，可能需要半分钟左右.
@@ -27,7 +28,7 @@ category: tech
        + `yas-jit`(可选) -- 按需加载snippets
 5. 配置yasnippet,这里分两种情况: 安装yas-jit和没有安装yas-jit:
    + 如果安装了`yas-int`
-   ``` elisp
+{% highlight elisp linenos%}
 (require 'yas-jit)
 (require 'dropdown-list)
 (setq yas/prompt-functions '(
@@ -40,9 +41,10 @@ category: tech
                            "~/.emacs.d/vendor/yasnippets-rails/rails-snippets" ;; 其他
                            "~/.emacs.d/vendor/yasnippets-shoulda"))
 (yas/jit-load)
-   ```
+{% endhighlight %}
+
    + 如果没有安装`yas-jit`
-   ``` elisp
+{% highlight elisp linenos%}
 (require 'yasnippet)
 (yas-global-mode 1)
 (require 'dropdown-list)
@@ -51,7 +53,7 @@ category: tech
                               yas/completing-prompt))
 (yas/load-directory "~/.emacs.d/vendor/yasnippets-rails/rails-snippets")
 (yas/load-directory "~/.emacs.d/vendor/yasnippets-shoulda")
-   ```
+{% endhighlight %}
 
 6. 完了，
 
@@ -62,5 +64,4 @@ category: tech
 1. markdown-mode 下由于 `TAB` 被绑定到了 `markdown-cycle`上，所以无法展开snippets。
    查看键绑定`C-h k RET TAB`
 
-    > <tab> runs the command markdown-cycle, which is an interactive compiled Lisp
-    function in `markdown-mode.el'.
+> TAB runs the command markdown-cycle, which is an interactive compiled Lisp function in 'markdown-mode.el'.
