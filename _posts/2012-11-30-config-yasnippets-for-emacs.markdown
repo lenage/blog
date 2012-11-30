@@ -6,8 +6,7 @@ category: tech
 适用版本: Emacs 24+
 
 1. 添加package源，将如下代码加到`.emacs` 或者 `.emacs.d/init.el`
-
-{% highlight lisp %}
+{% highlight cl linenos %}
 ;; set packages
 (require 'package)
 (setq package-archives
@@ -28,8 +27,7 @@ category: tech
        + `yas-jit`(可选) -- 按需加载snippets
 5. 配置yasnippet,这里分两种情况: 安装yas-jit和没有安装yas-jit:
    + 如果安装了`yas-int`
-
-{% highlight lisp linenos %}
+{% highlight cl linenos %}
 (require 'yas-jit)
 (require 'dropdown-list)
 (setq yas/prompt-functions '(
@@ -45,8 +43,7 @@ category: tech
 {% endhighlight %}
 
    + 如果没有安装`yas-jit`
-
-{% highlight lisp linenos %}
+{% highlight cl linenos %}
 (require 'yasnippet)
 (yas-global-mode 1)
 (require 'dropdown-list)
@@ -67,17 +64,3 @@ category: tech
    查看键绑定`C-h k RET TAB`
 
 > TAB runs the command markdown-cycle, which is an interactive compiled Lisp function in 'markdown-mode.el'.
-
-
-## Test code highlight
-{% highlight xml %}
-<keybind key=”XF86AudioMute”>
-<action name=”Execute”>
-<startupnotify>
-<enabled>true</enabled>
-<name>Audio mute</name>
-</startupnotify>
-<command>amixer sset Master,0 toggle</command>
-</action>
-</keybind>
-{% endhighlight %}
