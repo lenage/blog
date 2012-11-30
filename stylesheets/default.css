@@ -209,17 +209,6 @@ img {
   background-repeat: repeat-y;
   background-position: 0 0;
   border-raidus: 5px; }
-  pre {
-    background: #222222;
-    color: white;
-    text-shadow: none;
-    width: 579px;
-    overflow-x: auto;
-    border-radius: 5px;
-    margin-left: -40px;
-    padding: 20px; }
-    pre code {
-      border: none; }
   li pre {
     margin-left: -80px; }
   p code,
@@ -234,6 +223,17 @@ img {
     border: 1px solid #ddd;
     border-radius: 3px;
     margin: 0 2px;}
+  .highlight pre {
+    background: #222222;
+    color: white;
+    text-shadow: none;
+    width: 579px;
+    overflow-x: auto;
+    border-radius: 5px;
+    margin-left: -40px;
+    padding: 20px; }
+    .highlight pre code {
+      border: none; }
 
 .projects h3 a{color:#000}
 .projects h3 {border-bottom: 1px solid #ccc}
