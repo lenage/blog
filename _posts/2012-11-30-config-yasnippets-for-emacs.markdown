@@ -23,10 +23,12 @@ category: tech
 4. 在打开的Packages Buffer中，找到`yasnippet` `yasnippet-bundle` `yas-jit`, 并按`i`(install)
    标记安装.最后按`x`安装。
    PS:
-       + `yasnippet-bundle`(可选) -- 自动编译snippets
-       + `yas-jit`(可选) -- 按需加载snippets
+   + `yasnippet-bundle`(可选) -- 自动编译snippets
+   + `yas-jit`(可选) -- 按需加载snippets
+
 5. 配置yasnippet,这里分两种情况: 安装yas-jit和没有安装yas-jit:
-   + 如果安装了`yas-int`
+
+   * 如果安装了`yas-int`
 {% highlight cl linenos %}
 (require 'yas-jit)
 (require 'dropdown-list)
@@ -42,7 +44,7 @@ category: tech
 (yas/jit-load)
 {% endhighlight %}
 
-   + 如果没有安装`yas-jit`
+   * 如果没有安装`yas-jit`
 {% highlight cl linenos %}
 (require 'yasnippet)
 (yas-global-mode 1)
@@ -54,7 +56,7 @@ category: tech
 (yas/load-directory "~/.emacs.d/vendor/yasnippets-shoulda")
 {% endhighlight %}
 
-6. 完了，
+6. 完了.
 
 欢迎参考我的[emacs-config](http://github.com/lenage/emacs-config)
 

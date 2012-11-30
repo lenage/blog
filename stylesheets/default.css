@@ -221,16 +221,18 @@ img {
       border: none; }
   .post .content li pre {
     margin-left: -80px; }
-  .post .content code {
-    background: #222222;
-    color: white;
+  .post .content p code,
+  .post .content li code{
+    background: #eee;
+    color: #000;
     text-shadow: none;
     font-size: 12px;
     line-height: 1.25;
     font-family: "Monaco", "Courier New", monospace;
-    padding: 3px;
-    border: 1px solid #111111;
-    border-radius: 5px; }
+    padding: 1px 3px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0 2px;}
 
 .projects h3 a{color:#000}
 .projects h3 {border-bottom: 1px solid #ccc}
