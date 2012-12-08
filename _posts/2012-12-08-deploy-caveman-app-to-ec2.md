@@ -17,10 +17,10 @@ category: tech
 4. 设置服务端的git，然后push代码到EC2， 可以参考这篇文章: [How to set up your own private Git server on Linux][setup-git]
    和[HN上的讨论][hn-git-setup]，具体流程看这个[gist](https://gist.github.com/4239048)
 
-然后，启动sbcl, 在tmux中运行`sbcl --load quicklisp.lisp`, 执行`(ql:quickload :myapp)`, 如有报错请检查quicklisp是否
+然后，启动sbcl, 在tmux中运行`sudo sbcl --load quicklisp.lisp`, 执行`(ql:quickload :myapp)`, 如有报错请检查quicklisp是否
 安装正确，或者myapp目录是否在`quicklisp/local_projects/`目录下面，
 
-最后, 在sbcl中运行`(myapp:start)` 启动.
+最后, 在sbcl中运行`(myapp:start :port 80)` 启动.
 
 
 [1]: http://blog.lenage.com/tech/2012/12/07/deploy-common-lisp-app-to-heroku/
