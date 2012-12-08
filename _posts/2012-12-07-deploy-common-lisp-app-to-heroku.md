@@ -16,17 +16,18 @@ http://fierce-ravine-4120.herokuapp.com/ | git@heroku.com:fierce-ravine-4120.git
 2. 使用sbcl `heroku config:add CL_IMPL=sbcl --app {app_name}`
 3. 使用hunchentoot做web server `heroku config:add CL_WEBSERVER=hunchentoot`
 4. 添加heroku到git remote host
-{% highlight bash %}
-cd myapp
-git init  && git add .
-git commit -m "first commit"
-git remote add heroku git@heroku.com:fierce-ravine-4120.git
-git push heroku master
-{% endhighlight %}
+   {% highlight bash %}
+   cd myapp
+   git init  && git add .
+   git commit -m "first commit"
+   git remote add heroku git@heroku.com:fierce-ravine-4120.git
+   git push heroku master
+   {% endhighlight %}
+
 5. 修改`heroku-setup.lisp`, 将example修改为自己的app-name, 我这里是`myapp`
 6. `git push heroku master`
 
-PS: 另外可以重写 `heroku-toplevel` 函数来启动app
+PS: 另外可以重写 `heroku-toplevel` 函数来自定义启动app
 
 [1]: https://devcenter.heroku.com/articles/third-party-buildpacks
 [2]: https://github.com/jsmpereira/heroku-cl-example
