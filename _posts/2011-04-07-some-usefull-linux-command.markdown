@@ -10,7 +10,7 @@ linux下的一些命令记录：有些命令可能在安装好系统之后再也
 
 1.xev:运行一个gtk窗口，并在终端输出按键输入时的反馈，可以用来测试笔记
   本上的多媒体按键是否被内核支持；
-2.`sed -i “s/A/B/g”`` `grep A -rl yourdir` :用sed讲youdir目录下所有
+2.`sed -i “s/A/B/g” grep A -rl yourdir` :用sed将youdir目录下所有
   文件中的A字符替换为B字符；
 3.tmux ：和screen相当的终端多个screen显示程序，可以在屏幕下端显示窗口
   列表（screen不会），不知道怎么使用？ man一下
