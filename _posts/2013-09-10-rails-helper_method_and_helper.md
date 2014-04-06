@@ -7,6 +7,7 @@ category: tech
 defined in `rails/actionpack/lib/abstract_controller/helpers.rb`
 Declare a controller method as a helper. For example, the following
 
+{% highlight ruby %}
     class ApplicationController < ActionController::Base
       helper_method :current_user, :logged_in?
 
@@ -18,15 +19,15 @@ Declare a controller method as a helper. For example, the following
         current_user != nil
       end
     end
+{% endhighlight %}
 
 then in view
 
     <% if logged_in? -%>Welcome, <%= current_user.name %><% end -%>
 
-
 ## helper
-The +helper+ class method can take a series of helper module names, a block, or both.
+The `helper` class method can take a series of helper module names, a block, or both.
 
 ###Parameters
-* <tt>*args</tt> - Module, Symbol, String, :all
-* <tt>block</tt> - A block defining helper methods
+* **\*args** - Module, Symbol, String, :all
+* **block** - A block defining helper methods
