@@ -5,7 +5,7 @@ category: tech
 ---
 [Tramp](http://savannah.gnu.org/projects/tramp) 是emacs下用来快速编辑远程文件的package, 用起来真的很方便:)
 Emacs 24 内置 Tramp 所以不用配置就可以直接使用
-![build in screenshot](/images/2012-08/tramp.png)
+![build in screenshot](/assets/images/2012-08/tramp.png)
 
 打开远程文件:
 `C-x C-f /myserver:public_html/foo.html`
