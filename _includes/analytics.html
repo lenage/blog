@@ -3,6 +3,9 @@
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', '{{ site.theme.google_analytics_key }}']);
+  {% if site.theme.google_analytics_domain %}
+  _gaq.push(['_setDomainName', 'lenage.com']);
+  {% endif %}
   _gaq.push(['_trackPageview']);
 
   (function() {
