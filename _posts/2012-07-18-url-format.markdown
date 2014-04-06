@@ -1,6 +1,6 @@
 ---
 layout: post
-title: URL Syntax
+title: URL schemes
 category: tech
 ---
 
