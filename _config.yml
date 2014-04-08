@@ -1,4 +1,5 @@
 # General Jekyll Config
+markdown: kramdown
 pygments: true
 url: http://blog.lenage.com
 lsi: false
