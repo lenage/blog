@@ -20,7 +20,8 @@
 	#Buttons
 	#Tabs
 	#Forms
-	#Misc */
+    #Code Blocks
+	#Misc*/
 
 
 /* #Reset & Basics (Inspired by E. Meyers)
@@ -82,6 +83,8 @@
 	em { font-style: italic; }
 	strong { font-weight: bold; color: #333; }
 	small { font-size: 80%; }
+    sup { font-size: 12px; vertical-align: super}
+    sub { font-size: 12px; vertical-align: sub}
 
 /*	Blockquotes  */
 	blockquote, blockquote p { font-size: 17px; line-height: 24px; color: #777; font-style: italic; }
@@ -116,6 +119,7 @@
 	li { line-height: 18px; margin-bottom: 12px; }
 	ul.large li { line-height: 21px; }
 	li p { line-height: 21px; }
+    .footnotes li p{ line-height: 15px; margin-bottom: 5px;}
 
 /* #Images
 ================================================== */
@@ -326,10 +330,24 @@
 		font-size: 13px;
 		color: #444; }
 
+/* #Code Blocks
+================================================== */
+.CodeRay .code pre span {
+  line-height: 1;
+}
+.CodeRay .code pre span.line-numbers{
+  padding-right: 10px;
+}
+.CodeRay .code pre span.line-numbers a {
+  user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+}
+
 /* #Misc
 ================================================== */
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
-
