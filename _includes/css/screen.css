@@ -91,6 +91,10 @@ ul.posts span {
   font-size:14px;
 }
 
+ul.posts .post-link {
+  color: #0894D6;
+}
+
 .meta {
   color: #aaa;
   margin: 0 0 10px 0;

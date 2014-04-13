@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一些有用的linux命令
-category: tech
+category: tech, blog
 ---
 
 linux下的一些命令记录：有些命令可能在安装好系统之后再也不会用到，但需

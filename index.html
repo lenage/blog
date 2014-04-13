@@ -7,7 +7,16 @@ title: blog, notes, and book writeups.
   <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
   <ul id="blog-posts" class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% unless post.categories contains 'tutorial' %}
+        <li><span>{{ post.date | date_to_string }} &raquo;</span><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+
+  <h2><i class="fa fa-pagelines"></i> Tutorial</h2>
+  <ul id="tutorial-posts" class="posts">
+    {% for post in site.categories.tutorial %}
+      <li><span>{{ post.date | date_to_string }} &raquo;</span><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
