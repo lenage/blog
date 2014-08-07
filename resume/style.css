@@ -1,0 +1,97 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+#page-wrap {
+    width: 900px;
+    margin: 10px auto 120px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+sub {
+    color: #777;
+    font-size: 12px;
+}
+
+#profile {
+  position: relative;
+}
+
+#profile img{
+  width: 200px;
+}
+
+#info td:first-child {
+    width: 100px;
+    font-weight: 600;
+}
+
+.en #info td:first-child {
+    width: 150px;
+    font-weight: 600;
+}
+
+body {
+    font-family: Monaco, monospace, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.date {
+    font-size: 12px;
+    font-weight: normal;
+    color: #777;
+}
+
+.info {
+    color: #555;
+    padding: 0;
+    margin: 4px 0;
+}
+
+h3 a, h4 a {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#profile {
+    float: right;
+    width: 190px;
+}
+
+#info {
+    width: 700px;
+}
+
+.dim {
+    color: #666;
+}
+
+.projects h4 {
+    margin: 10px 0;
+}
+
+.projects {
+    list-style: none;
+    padding: 0;
+}
+.skills {
+    padding-left: 20px;
+}
+
+.notice {
+    border-top: 1px solid #cecece;
+    padding-top: 10px;
+}
+
+.skills {
+    padding-left: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
