@@ -1,5 +1,7 @@
 # lenage's Blog(夜深)
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lenage/lenage.github.com?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## History
 * 2011-04-20 21:10 创建博客
 * 2011-05-12 12:42 从[tatey.com](http://tatey.com) fork 过来设计并做相应的修改
