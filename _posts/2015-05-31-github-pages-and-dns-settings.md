@@ -7,7 +7,7 @@ category: tech
 Github Pages 给所有托管在 Github 上的项目提供静态网站和基于 Jekyll 的博客服务。
 如果项目在 Github 上，并且需要一个简单的展示页面的话， Github Pages 是最好的选择，
 同时，Github Pages 也提供自定义域名绑定服务, 但是官方的文档说的不是很明白，本文基
-于我自己的实践说一下如何绑定输域名 (lenage.com) 和多个子域名到 Github 的不同项目。
+于我自己的实践说一下如何绑定主域名 (lenage.com) 和多个子域名到 Github 的不同项目。
 
 ## 目的
 
