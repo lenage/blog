@@ -1,6 +1,6 @@
 ## 关于
 
-何源(Yuan He), Web开发工程师，2010年毕业于天津工业大学， 喜欢函数式编程, [Linkedin](http://www.linkedin.com/in/heyuan)。
+何源(Yuan He), Web开发工程师，喜欢函数式编程, [Linkedin](http://www.linkedin.com/in/heyuan)。
 
 2008年初和大学同学合伙开发幼儿教育软件，2011年初因技术和团队原因作罢。
 
