@@ -3,7 +3,12 @@ markdown: kramdown
 pygments: true
 url: http://blog.lenage.com
 lsi: false
-exclude: [LICENSE, CNAME, README.md, ABOUT.md, .gitignore]
+exclude:
+  - LICENSE
+  - CNAME
+  - README.md
+  - ABOUT.md
+  - .gitignore
 
 # Theme customization - please change from the defaults!
 theme:
