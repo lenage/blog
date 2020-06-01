@@ -3,17 +3,17 @@ html {
 }
 
 #page-wrap {
-    width: 900px;
-    margin: 10px auto 120px auto;
+  width: 900px;
+  margin: 10px auto 120px auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 sub {
-    color: #777;
-    font-size: 12px;
+  color: #777;
+  font-size: 12px;
 }
 
 #profile {
@@ -25,73 +25,93 @@ sub {
 }
 
 #info td:first-child {
-    width: 100px;
-    font-weight: 800;
+  width: 100px;
+  font-weight: 800;
+  vertical-align: top;
+}
+
+#info tr:first-child td{
+  vertical-align: middle;
 }
 
 .en #info td:first-child {
-    width: 150px;
-    font-weight: 600;
+  width: 150px;
+  font-weight: 600;
 }
 
 body {
-    font-family: Monaco, monospace, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
-    font-size: 14px;
-    line-height: 1.8;
+  font-family: Monaco, monospace, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
 }
 
 .date {
-    font-size: 12px;
-    font-weight: normal;
-    color: #777;
+  font-size: 12px;
+  font-weight: normal;
+  color: #777;
 }
 
 .info {
-    color: #555;
-    padding: 0;
-    margin: 4px 0;
+  color: #555;
+  padding: 0;
+  margin: 4px 0;
 }
 
+
 h3 a, h4 a {
-    font-size: 13px;
-    font-weight: normal;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+#name {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 #profile {
-    float: right;
-    width: 190px;
+  float: right;
+  width: 190px;
 }
 
 #info {
-    width: 700px;
+  width: 700px;
 }
 
 .dim {
-    color: #666;
+  color: #666;
 }
 
 .projects h4 {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .projects {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 .skills {
-    padding-left: 20px;
+  padding-left: 20px;
+  margin-top: 0;
 }
 
 .notice {
-    border-top: 1px solid #cecece;
-    padding-top: 10px;
+  border-top: 1px solid #cecece;
+  padding-top: 10px;
 }
 
 .skills {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 h2 {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* print.css */
+@media print {
+  table, img, svg {
+    break-inside: avoid;
+  }
+  @page { size: auto;  margin-top: 10mm; }
 }
