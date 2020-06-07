@@ -2,11 +2,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-#page-wrap {
-  width: 900px;
-  margin: 10px auto 120px auto;
-}
-
 a {
   text-decoration: none;
 }
@@ -14,6 +9,26 @@ a {
 sub {
   color: #777;
   font-size: 12px;
+}
+
+h1 {
+  margin-bottom: 0.1rem;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+body {
+  font-family: Monaco, monospace, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+#page-wrap {
+  width: 900px;
+  margin: 50px auto 120px auto;
 }
 
 #profile {
@@ -39,13 +54,7 @@ sub {
   font-weight: 600;
 }
 
-body {
-  font-family: Monaco, monospace, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.date {
+.date, .team-size {
   font-size: 12px;
   font-weight: normal;
   color: #777;
@@ -67,6 +76,8 @@ h3 a, h4 a {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+.career-title span {}
 
 #profile {
   float: right;
@@ -103,10 +114,6 @@ h3 a, h4 a {
   padding-left: 10px;
 }
 
-h2 {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
 
 /* print.css */
 @media print {
